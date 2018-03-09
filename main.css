@@ -1,8 +1,18 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
+/* body {
     padding-top: 30px;
     padding-bottom: 20px;
     color: green;
+}
+
+*/
+
+.header-home {
+  text-align: center;
+}
+
+.product-description {
+  text-align: center;
 }
