@@ -11,8 +11,83 @@
 
 .header-home {
   text-align: center;
+ 
 }
 
 .product-description {
   text-align: center;
 }
+
+/* video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+ */
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.contain-header {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.main-header {
+  min-height:100vh;
+  display:block;
+  color:$color-white;
+      
+}
+video#bgvid {
+          position:absolute;
+          top:50%;
+          left:50%;
+          min-width:100%;
+          min-height:100%;
+          width:auto;
+          height:auto;
+          z-index:-100;
+          -ms-transform: translateX(-50%) translateY(-50%);
+          -moz-transform: translateX(-50%) translateY(-50%);
+          -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+          background: url(../images/clouds.jpg) no-repeat;
+          background-size: cover;
+        }
+        video {
+          display:block;
+        }
+        .header-logo {
+          max-width:40%;
+          height:auto;
+          margin:0 auto;
+          display:block;
+          padding-top:50px;
+        }
+        h1#header-you {
+          text-transform:uppercase;
+          text-align:center;
+          font-family:$tultra;
+          
+        }
+
+.contain-header {
+  position: relative;
+  overflow: hidden; 
+  background-color: rgba(0, 0, 0, 0.6);
+  
