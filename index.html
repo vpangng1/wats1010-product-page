@@ -14,94 +14,103 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css"> 
 			  
+      	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			  
       
-      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-        <!-- End Bootstrap CSS Framework -->
-
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
+      
+           <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
+
+			  <!-- Font Awesome Social Media Icons -->
+			  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
     </head>
     <body>
       
      
       
-<!-- Navigation Start -->     
+<!-- Navigation Start -->   
+			
  <div class="page-header">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
-         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right" id="navbar-right">
-            <li><a href="#home">HOME</a></li>
+				<div class="navbar-header">
+      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>                        
+      		</button>
+      		<a class="navbar-brand" src="design/icon_website.png">API Superstore</a>
+    		</div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#features">FEATURES</a></li>
             <li><a href="#testimonials">TESTIMONIALS</a></li>
             <li><a href="#contact-us">CONTACT US</a></li>
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
+      
       </div>
-      <!-- /.container-fluid -->
-    </nav>
-    
+      
+    </nav> 
 <!-- Navigation End -->
-        
-     <div class="content contain-header">
+
+			
+			
+<!-- Start of Home section -->
+<div class="content contain-header">
   <div class="container">
     <div class="row main-header">
 
-      <video autoplay loop poster="images/clouds.jpg" id="bgvid">
+      <video autoplay loop poster="#" id="bgvid">
         <source src="design/background_video.mp4" type="video/mp4"/>
       </video>
 
       <div class="col-md-2 col-xs-1">
 			</div>
       <div class="col-md-8 col-xs-10">
-        <img src="images/logo.svg" class="header-logo" />
-        <h1 id="header-you">Wow</h1>
-        <p>Business model canvas rockstar user experience founders handshake. Startup responsive web design bootstrapping first mover advantage disruptive crowdfunding. User experience iteration seed money rockstar holy grail deployment prototype gen-z backing influencer handshake success. Virality growth hacking innovator product management iPad.</p>
-            <p>Crowdsource marketing non-disclosure agreement graphical user interface bootstrapping market research & development:</p>
-            <p class="continue"><a href="#next"><span class="glyphicon glyphicon-menu-down"></span></a></p>
+      <div class="header-logo">
+        <h1>API Superstore</h1>
+        <h2>For All Your API Needs</h2>
+				<h4 class="learn-more"><a href="#"><span class="glyphicon glyphicon-play-circle"></span> Learn More</a></h4>
+				
+			</div>
+				
           </div>        
           <div class="col-md-2 col-xs-1">
 					</div>
-        </div> 
+			</div> 
       </div> 
 </div>
-     
-<!-- Start of Home section -->
- <!-- <section class="jumbotron"> -->
-	 <section>		 
-		<div class="header-home">
-        <h1>API Superstore</h1>
-        <h2>For All Your API Needs</h2>
-        <h4 class="sign-up_button"><a href="#sign-up">Sign Up</a></h4>
-        <h4 class="take-a-tour_button"><a href="#take-a-tour"><span class="glyphicon glyphicon-play-circle"></span> Learn More</a></h4>
-	  </div>
- </section>
+   
 
- 
 <!-- Home End -->
 			
 		
     
 <!-- Start of About -->
 				
-   <section class="product-description bg-gray">
+   <section class="product-description bg-white">
     
 		 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">Save Time</div>
-          <div class="col-md-4">Save Hassles</div>
-          <div class="col-md-4">No Headaches</div>
+          <div class="col-md-4">Cutting Edge<br>
+					<img src="design/icon_api.png"></div>
+          <div class="col-md-4">Convenient<br>
+					<img src="design/icon_easy.png"></div>
+          <div class="col-md-4">Accessible<br>
+					<img src="design/icon_money.png"></div>
         </div>
-        <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. 
+        <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. <br>
           From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!</p>
-        <h4 class="sign-up-and-save_button"><a href="#sign-up"> Sign Up and Save!</a></h4>
+        <h4><a href="#">Sign Up and Save!</a></h4>
       </div>
   </section>
    <!-- End of About -->
@@ -110,11 +119,11 @@
 <!-- Start of Features -->
 
      
-  <section class="video-section bg-white">
+  <section class="video-section bg-gray">
     <div class="container">
       <div class="row">
         <div class="col-md-5 col-sm-6 col-xs-12  wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
-          <h2 class="our-features">Our Features</h2>
+          <!-- <h2 class="our-features">Our Features</h2> -->
 						<ul class="list-group">
   							<li class="list-group-item">Links to the best APIs from all over the web</li>
   							<li class="list-group-item">Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
@@ -135,14 +144,14 @@
         
         <!-- Testimonial Start -->
 		
-        <section class="testimonial bg-gray">
+        <section class="testimonial bg-white">
 					<div class="container">
 						<div class="row">
 							<table>
 								<tbody>
 									<tr>
-										<td>
-											<!--<img src="#">-->
+										<td class="tablePerim">
+											<img src="design/testimonial_1_160x273.png" class="promoImage curved" height="80px" width="93px">
 										</td>
 										<td>
 											<p>											
@@ -157,15 +166,13 @@
 							<table>
 								<tbody>
 									<tr>
-										<td>
-											<!--<img src="#">-->
+										<td class="tablePerim">
+											<img src="design/testimonial_2_160x188.png" class="promoImage curved" height="80px" width="93px">
 										</td>
 										<td>
 											<p>
-													“I have really admired the way the API Superstore team has created a truly divine interface for
-													browsing all that information that’s out there online for free. For a low monthly fee, I’m able to
-													more easily keep up with the churn of information that makes application development so
-													difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!”<br>
+													“I’m able to more easily keep up with the churn of information that makes application development so
+													difficult, and API Superstore makes my world so much happier!”<br>
 												<b>Amy Zon - IT Consultant</b>
 											</p>
 										</td>
@@ -175,8 +182,8 @@
 							<table>
 								<tbody>
 									<tr>
-										<td>
-											<!--<img src="#">-->
+										<td class="tablePerim">
+											<img src="design/testimonial_3_160x225.png" class="promoImage curved" height="80px" width="93px">
 										</td>
 										<td>
 											<p>
@@ -197,12 +204,31 @@
      
 
         <!-- Contact Us Start -->
-        
- 
+<section class="social-media">
+<div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">Save Money<br>
+					<img src="design/icon_money.png"></div>
+          <div class="col-md-4">Save Time<br>
+					<img src="design/icon_time.png"></div>
+          <div class="col-md-4">Enhance Business<br>
+					<img src="design/icon_money.png"></div>
+        </div>
+	<p>
+		The longer you wait, the longer<br>
+		you're not making more money and happier users!
+	</p>
+	
+	      <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+        <a href="https://plus.google.com/discover" class="fa fa-google"></a>
+	
+</div>
+			</section>
       <section class="footer bg-white">
         
       
-        <p class= "text-center">
+        <p>
           Phone: 206-555-1234 <br>
           Email: info@apisuperstore.com<br>
           Location: Seattle, Washington, USA
@@ -211,13 +237,14 @@
    
         
       
-        <p class= "text-center">
+        <p>
           Copyright &copy; 2018 - Victor Ng<br>
           An imaginary product page for WATS 1010: Introduction to Web Development
         </p>
         
       </section>
       
+	    
       <!-- End Footer -->
         <!-- Contact Us End -->
 
