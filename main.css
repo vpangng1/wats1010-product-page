@@ -101,19 +101,19 @@ video {
 }
 */
 
+
 .contain-header {
   position: relative;
   overflow: hidden; 
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-img {
+.container img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
-  
-} 
+}
 
 .curved {
   border-radius: 7px;
