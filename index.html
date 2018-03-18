@@ -29,13 +29,16 @@
 			  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
     </head>
-    <body>
+	
+	
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
       
      
       
 <!-- Navigation Start -->   
 			
- <div class="page-header">
+ 
+	 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
 				<div class="navbar-header">
@@ -45,7 +48,7 @@
         		<span class="icon-bar"></span>                        
       		</button>
       		<a class="navbar-brand"></a>
-					<img src="design/API_Superstore_logo.png" height="50" width="250">
+					<img src="design/icon_logo.png" height="50" width="250">
     		</div>
          <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -57,16 +60,18 @@
           </ul>
         </div>
       
-      </div>
       
+      </div>
     </nav> 
+	
+ 
 <!-- Navigation End -->
 
 			
 			
 <!-- Start of Home section -->
-<div class="content contain-header" id="home">
-  <div class="container">
+<div class="contain-header" id="home">
+  <div class="container-fluid">
     <div class="row main-header">
 
       <video autoplay loop poster="#" id="bgvid">
@@ -79,7 +84,11 @@
       <div class="header-logo">
         <h1>API Superstore</h1>
         <h2>For All Your API Needs</h2>
-				<h4 class="learn-more"><a href="#"><span class="glyphicon glyphicon-play-circle"></span> Learn More</a></h4>
+				<p>
+					<a class="btn btn-info btn-primary btn-lg" href="#about">Learn More</a></button>
+				</p>
+					
+				
 				
 			</div>
 				
@@ -107,11 +116,16 @@
           <div class="col-md-4">Convenient<br>
 					<img src="design/icon_easy.png"></div>
           <div class="col-md-4">Accessible<br>
-					<img src="design/icon_money.png"></div>
+					<img src="design/icon_key.png"></div>
+					
         </div>
         <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. <br>
-          From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!</p>
-        <h4><a href="#">Sign Up and Save!</a></h4>
+          From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!
+				</p>
+        
+				<a class="btn btn-info btn-primary btn-lg" href="#contact-us">Sign Up Now!</a></button>
+		 
+		 
       </div>
   </section>
    <!-- End of About -->
@@ -121,21 +135,34 @@
 
      
   <section class="video-section bg-gray" id="features">
-    <div class="container">
+		
+		
+		
+		
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-sm-6 col-xs-12  wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
-          <!-- <h2 class="our-features">Our Features</h2> -->
-						<ul class="list-group">
-  							<li class="list-group-item">Links to the best APIs from all over the web</li>
-  							<li class="list-group-item">Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
-  							<li class="list-group-item">Convenient catalog</li>
-							<li class="list-group-item">Elegant shopping experience</li>
-						</ul>
-                 </div>
+				<div class="col-md-4">
+					
+				</div>
+        <div class="col-md-4">
+          
+						
+                 
 				 <div class="video-box">
 					<iframe width="620" height="415" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allowfullscreeen></iframe>
 				</div>
-			</div>
+			<ul class="list-group">
+  							<li class="list-group-item">Links to the best APIs from all over the web</li>
+  							<li class="list-group-item">Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+  							<li class="list-group-item">Convenient catalog</li>
+							  <li class="list-group-item">Elegant shopping experience</li>
+						</ul>
+			
+			 </div>
+				<div class="col-md-4">
+					
+				</div>
+		 </div>
 		</div>
 	</section>
       
@@ -152,7 +179,7 @@
 								<tbody>
 									<tr>
 										<td class="tablePerim">
-											<img src="design/testimonial_1_160x273.png" class="promoImage curved" height="80px" width="93px">
+											<img src="design/testimonial_1_160x273.png" class="promoImage curved" >
 										</td>
 										<td>
 											<p>											
@@ -168,7 +195,7 @@
 								<tbody>
 									<tr>
 										<td class="tablePerim">
-											<img src="design/testimonial_2_160x188.png" class="promoImage curved" height="80px" width="93px">
+											<img src="design/testimonial_2_160x178.png" class="promoImage curved">
 										</td>
 										<td>
 											<p>
@@ -184,7 +211,7 @@
 								<tbody>
 									<tr>
 										<td class="tablePerim">
-											<img src="design/testimonial_3_160x225.png" class="promoImage curved" height="80px" width="93px">
+											<img src="design/testimonial_3_160x225.png" class="promoImage curved">
 										</td>
 										<td>
 											<p>
@@ -198,6 +225,7 @@
 							</table>
 						</div>
 					</div>
+					
 			</section>
         
         <!-- Testimonial End -->
@@ -205,29 +233,73 @@
      
 
         <!-- Contact Us Start -->
-<section class="social-media">
+<section id="sign-up">
 <div class="container-fluid">
-        <div class="row">
+        
+			<div class="row">
           <div class="col-md-4">Save Money<br>
 					<img src="design/icon_money.png"></div>
           <div class="col-md-4">Save Time<br>
 					<img src="design/icon_time.png"></div>
           <div class="col-md-4">Enhance Business<br>
-					<img src="design/icon_money.png"></div>
+					<img src="design/icon_handshake.png"></div>
         </div>
+		
+	
 	<p>
 		The longer you wait, the longer<br>
 		you're not making more money and happier users!
 	</p>
 	
-	      <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+
+ <!-- Contact Form -->
+	<div class="contact-form">
+       <div class="row" id="contact">
+        <div class="col-sm-4 col-sm-offset-4">
+          
+          <form name="sentMessage" id="contactForm">
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Full Name:</label>
+                <input type="text" class="form-control" id="name" required="" data-validation-required-message="Please enter your name.">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Email Address:</label>
+                <input type="email" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Message:</label>
+                <textarea rows="10" cols="100" class="form-control" id="message" required="" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              </div>
+            </div>
+            <div id="success"></div>
+            <!-- For success/fail messages -->
+            <button type="submit" class="btn btn-primary btn-block btn-info btn-lg">Sign Up</button>
+          </form>
+        </div>
+      </div>
+	</div>
+	
+   
+	</div>
+</section>
+	
+ <section class="footer bg-white" id="contact-us">
+       
+				<a href="https://www.facebook.com" class="fa fa-facebook"></a>
         <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
         <a href="https://plus.google.com/discover" class="fa fa-google"></a>
-	
-</div>
-			</section>
-      <section class="footer bg-white" id="contact-us">
-        
       
         <p>
           Phone: 206-555-1234 <br>
@@ -249,11 +321,7 @@
       <!-- End Footer -->
         <!-- Contact Us End -->
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+               
   
     </body>
 </html>
