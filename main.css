@@ -7,6 +7,9 @@
 }
 */
 
+#sign-up p {
+  margin:20px;
+}
 
 .contact-form {
   margin-top: 30px;
@@ -74,17 +77,36 @@ video {
 
 
 
-.header-logo {
+/* .header-logo {
   max-width:50%;
   height:auto;
   margin:0 auto;
   display:block;
   padding-top:300px;
-   color: white;
+   
   text-align: center;
  
 }
+*/
 
+.header-logo {
+  padding-top: 300px;
+  text-align: center;
+  
+}
+
+.header-logo h1 {
+  color: white;
+  margin: 10px;
+  font: bold 126px Lato;
+ 
+}
+
+.header-logo h2 {
+  color: white;
+  font: bold 43px Lato;
+  
+}
 
 .container img {
   
