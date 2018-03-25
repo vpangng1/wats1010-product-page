@@ -1,14 +1,14 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-/* body {
-    position: relative;
-    
+body { 
+  overflow-x: hidden; 
 }
-*/
+
 
 #sign-up p {
   margin:20px;
+  font-size: 50px;
 }
 
 .contact-form {
@@ -47,7 +47,6 @@
 }
 
 
-
 .main-header {
   min-height:100vh;
   display:block;
@@ -68,7 +67,7 @@ video#bgvid {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
+  background-size: cover; 
 }
 
 video {
@@ -77,42 +76,98 @@ video {
 
 
 
-/* .header-logo {
-  max-width:50%;
-  height:auto;
-  margin:0 auto;
-  display:block;
-  padding-top:300px;
-   
-  text-align: center;
- 
-}
-*/
-
 .header-logo {
-  padding-top: 300px;
+  padding-top: 200px;
   text-align: center;
+  text-shadow: 1px 1px 1px #192136;
   
 }
 
 .header-logo h1 {
   color: white;
   margin: 10px;
-  font:  126px Lato;
+  font-family:  Lato;
  
 }
 
 .header-logo h2 {
   color: white;
-  font:  43px Lato;
+  font-family:  Lato;
   
 }
 
-.container img {
+
+/* xs */
+@media (min-width: 320px) {
+  #sign-up p {  
+  font-size: 13px;
   
- 
-  vertical-align: middle;
-  border: 0;
+  }
+}
+
+
+/* s */
+@media (min-width: 576px) {
+  #sign-up p { 
+    font-size: 15px;
+  
+  }
+}
+
+/* m */
+@media (min-width: 768px) {
+  #sign-up p {
+  font-size: 20px;
+  }
+}
+
+
+/* xs */
+@media (min-width: 320px) {
+  .header-logo h1 {  
+  font-size: 32px;
+  
+  }
+}
+
+
+/* s */
+@media (min-width: 576px) {
+  .header-logo h1 { 
+    font-size: 64px;
+  
+  }
+}
+
+/* m */
+@media (min-width: 768px) {
+  .header-logo h1 {
+  font-size: 126px;
+  }
+}
+
+/* xs */
+@media (min-width: 320px) {
+  .header-logo h2 {  
+  font-size: 21px;
+  
+  }
+}
+
+
+/* s */
+@media (min-width: 576px) {
+  .header-logo h2 { 
+    font-size: 32px;
+  
+  }
+}
+
+/* m */
+@media (min-width: 768px) {
+  .header-logo h2 {
+  font-size: 43px;
+  }
 }
 
 .curved {
@@ -121,11 +176,14 @@ video {
 
 .promoImage {
   width: 80px;
+  height: 125px;
   margin-bottom: 10px;
+  
 }
 
 .footer {
   text-align: center;
+  margin-top: 50px;
 }
 
 #sign-up {
@@ -137,9 +195,7 @@ video {
   background-color: #efefef;
 }
 
-.tablePerim {
-  padding-right: 10px;
-}
+
 
 .learn-more {
   text-align: center;
@@ -236,6 +292,53 @@ video {
     border-radius: 50%;
     color: white;
     margin: 10px;
-}
+  }
 }
 
+/* xs */
+@media (min-width: 320px) {
+  .description-text {  
+  font-size: 13px;
+  
+  }
+}
+
+
+/* s */
+@media (min-width: 576px) {
+  .description-text { 
+    font-size: 15px;
+  
+  }
+}
+
+/* m */
+@media (min-width: 768px) {
+  .description-text {
+  font-size: 20px;
+  }
+}
+
+/* xs */
+@media (min-width: 320px) {
+  .testimonial-text p {  
+  font-size: 12px;
+  
+  }
+}
+
+
+/* s */
+@media (min-width: 576px) {
+  .testimonial-text p { 
+    font-size: 13px;
+  
+  }
+}
+
+/* m */
+@media (min-width: 768px) {
+  .testimonial-text p {
+  font-size: 15px;
+  }
+}
